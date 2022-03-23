@@ -29,6 +29,7 @@ Project.init(
         model: 'user',
         key: 'id',
       },
+    },
     task: {
         type: DataTypes.STRING,
      },
@@ -36,8 +37,7 @@ Project.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    },
-  },
+      },
   {
     sequelize,
     timestamps: false,
